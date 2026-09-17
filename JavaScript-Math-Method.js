@@ -69,3 +69,9 @@ console.log(totalPages);
 // Example 1: Rounding down vs up
 console.log(Math.round(4.4));
 // Output: 4
+console.log(Math.round(4.5));
+// Output: 5
+
+// Example 2: Negative numbers with .5 ties
+console.log(Math.round(-4.5));
+// Output: -4
