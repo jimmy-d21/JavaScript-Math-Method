@@ -110,3 +110,9 @@ console.log(Math.max(10, 20, 5, 30));
 const scores = [88, 92, 79, 95];
 console.log(Math.max(...scores));
 // Output: 95
+
+// Example 3: Setting a minimum threshold (Clamping lower bound)
+const userAge = 15;
+const ageLimit = Math.max(userAge, 18);
+console.log(ageLimit);
+// Output: 18
