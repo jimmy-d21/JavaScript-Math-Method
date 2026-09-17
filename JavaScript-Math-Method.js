@@ -192,3 +192,9 @@ function getRandomInt(min, max) {
 }
 console.log(getRandomInt(1, 6)); // Dice roll
 // Output: Random integer between 1 and 6
+
+// Example 3: Random array element selection
+const colors = ["Red", "Green", "Blue"];
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
+console.log(randomColor);
+// Output: "Red", "Green", or "Blue"
