@@ -28,3 +28,8 @@ console.log(Math.abs("-5"));
 const result2 = Math.floor(4.9);
 console.log(result2);
 // Output: 4
+
+// Example 2: Negative numbers (rounds down away from zero)
+const result3 = Math.floor(-4.1);
+console.log(result3);
+// Output: -5
