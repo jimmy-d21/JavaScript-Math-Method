@@ -116,3 +116,14 @@ const userAge = 15;
 const ageLimit = Math.max(userAge, 18);
 console.log(ageLimit);
 // Output: 18
+
+const users = [
+  { name: "Alice", score: 88 },
+  { name: "Bob", score: 95 },
+  { name: "Charlie", score: 92 },
+];
+
+// Option 1: Map + Spread (Simplest for getting just the max number)
+const maxScore = Math.max(...users.map((u) => u.score));
+console.log(maxScore);
+// Output: 95
