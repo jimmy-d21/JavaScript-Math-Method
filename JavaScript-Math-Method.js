@@ -170,3 +170,10 @@ const products = [
 const cheapestPrice = Math.min(...products.map((p) => p.price));
 console.log(cheapestPrice);
 // Output: 19.99
+
+// Option 2: Reduce (Get the full object with the lowest value)
+const cheapestProduct = products.reduce((min, p) =>
+  p.price < min.price ? p : min,
+);
+console.log(cheapestProduct);
+// Output: { name: "Mouse", price: 19.99 }
