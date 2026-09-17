@@ -139,3 +139,11 @@ console.log(topUser);
 const maxScoreAlt = Math.max(...Array.from(users, (u) => u.score));
 console.log(maxScoreAlt);
 // Output: 95
+
+// Math.min(...args): Returns smallest number; useful for capping upper boundary limits
+// Math.min()
+// Returns the smallest value from supplied arguments.
+
+// Example 1: Direct argument comparison
+console.log(Math.min(10, 20, 5, 30));
+// Output: 5
