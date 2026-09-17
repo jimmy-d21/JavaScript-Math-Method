@@ -198,3 +198,11 @@ const colors = ["Red", "Green", "Blue"];
 const randomColor = colors[Math.floor(Math.random() * colors.length)];
 console.log(randomColor);
 // Output: "Red", "Green", or "Blue"
+
+// Math.pow(base, exp): Raises base to exp power; equivalent to ES6 exponentiation operator (base ** exp)
+// Math.pow()
+// Raises base to the power of exponent (base^exponent).
+
+// Example 1: Basic power calculation
+console.log(Math.pow(2, 3));
+// Output: 8
