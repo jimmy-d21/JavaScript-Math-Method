@@ -206,3 +206,7 @@ console.log(randomColor);
 // Example 1: Basic power calculation
 console.log(Math.pow(2, 3));
 // Output: 8
+
+// Example 2: Fractional exponent (Square root equivalent)
+console.log(Math.pow(16, 0.5));
+// Output: 4
