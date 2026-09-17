@@ -159,3 +159,14 @@ const maxHealth = 100;
 const cappedHealth = Math.min(currentHealth, maxHealth);
 console.log(cappedHealth);
 // Output: 100
+
+const products = [
+  { name: "Laptop", price: 999.99 },
+  { name: "Mouse", price: 19.99 },
+  { name: "Keyboard", price: 49.99 },
+];
+
+// Option 1: Map + Spread (Get lowest value directly)
+const cheapestPrice = Math.min(...products.map((p) => p.price));
+console.log(cheapestPrice);
+// Output: 19.99
