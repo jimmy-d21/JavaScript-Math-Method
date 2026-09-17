@@ -54,3 +54,10 @@ console.log(result4);
 const result5 = Math.ceil(-4.9);
 console.log(result5);
 // Output: -4
+
+// Example 3: Total pages calculation
+const totalItems = 21;
+const itemsPerPage = 10;
+const totalPages = Math.ceil(totalItems / itemsPerPage);
+console.log(totalPages);
+// Output: 3
