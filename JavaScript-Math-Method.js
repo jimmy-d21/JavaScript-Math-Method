@@ -88,3 +88,7 @@ console.log(`Score: ${Math.round(score)}`);
 // Example 1: Truncating positive floats
 console.log(Math.trunc(4.9));
 // Output: 4
+
+// Example 2: Truncating negative floats
+console.log(Math.trunc(-4.9));
+// Output: -4
