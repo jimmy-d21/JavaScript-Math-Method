@@ -40,3 +40,12 @@ const perPage = 10;
 const fullPages = Math.floor(items / perPage);
 console.log(fullPages);
 // Output: 2
+
+// Math.ceil(x): Rounds up to the nearest integer (moves right on the number line)
+// Math.ceil()
+// Rounds a number UP to the nearest integer.
+
+// Example 1: Basic positive float
+const result4 = Math.ceil(4.1);
+console.log(result4);
+// Output: 5
