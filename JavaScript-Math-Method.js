@@ -1,6 +1,7 @@
 // 1. Fundamental Rounding & Absolute Value (Beginner)
 // Math.abs()
 // Returns the absolute (non-negative) value of a number.
+// Math.abs(x): Converts negative numbers to positive; returns absolute distance from 0
 
 // Example 1: Basic negative number conversion
 const result1 = Math.abs(-10);
