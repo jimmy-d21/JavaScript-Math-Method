@@ -147,3 +147,8 @@ console.log(maxScoreAlt);
 // Example 1: Direct argument comparison
 console.log(Math.min(10, 20, 5, 30));
 // Output: 5
+
+// Example 2: Spreading an Array
+const prices = [19.99, 5.49, 12.0];
+console.log(Math.min(...prices));
+// Output: 5.49
