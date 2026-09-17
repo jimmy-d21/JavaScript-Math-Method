@@ -80,3 +80,11 @@ console.log(Math.round(-4.5));
 const score = 87.6;
 console.log(`Score: ${Math.round(score)}`);
 // Output: "Score: 88"
+
+// Math.trunc(x): Drops decimal part without rounding (differs from floor for negative numbers)
+// Math.trunc()
+// Removes all fractional digits, leaving only the integer part.
+
+// Example 1: Truncating positive floats
+console.log(Math.trunc(4.9));
+// Output: 4
