@@ -75,3 +75,8 @@ console.log(Math.round(4.5));
 // Example 2: Negative numbers with .5 ties
 console.log(Math.round(-4.5));
 // Output: -4
+
+// Example 3: Rounding score display
+const score = 87.6;
+console.log(`Score: ${Math.round(score)}`);
+// Output: "Score: 88"
