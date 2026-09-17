@@ -33,3 +33,10 @@ console.log(result2);
 const result3 = Math.floor(-4.1);
 console.log(result3);
 // Output: -5
+
+// Example 3: Converting total items to full pages
+const items = 25;
+const perPage = 10;
+const fullPages = Math.floor(items / perPage);
+console.log(fullPages);
+// Output: 2
