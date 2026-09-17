@@ -96,3 +96,12 @@ console.log(Math.trunc(-4.9));
 // Example 3: Converting string numbers safely
 console.log(Math.trunc("12.345"));
 // Output: 12
+
+// 2. Min/Max & Randomization (Beginner–Intermediate)
+// Math.max(...args): Returns largest number; spread arrays with Math.max(...arr)
+// Math.max()
+// Returns the largest value from supplied arguments.
+
+// Example 1: Direct argument comparison
+console.log(Math.max(10, 20, 5, 30));
+// Output: 30
