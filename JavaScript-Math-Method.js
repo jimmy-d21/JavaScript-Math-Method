@@ -18,3 +18,13 @@ console.log(distance);
 // Example 3: Handled edge cases (coercion)
 console.log(Math.abs("-5"));
 // Output: 5
+
+// Math.floor()
+// Math.floor(x): Rounds down to the nearest integer (moves left on the number line)
+// Math.floor()
+// Rounds a number DOWN to the nearest integer.
+
+// Example 1: Basic positive float
+const result2 = Math.floor(4.9);
+console.log(result2);
+// Output: 4
