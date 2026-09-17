@@ -177,3 +177,11 @@ const cheapestProduct = products.reduce((min, p) =>
 );
 console.log(cheapestProduct);
 // Output: { name: "Mouse", price: 19.99 }
+
+// Math.random(): Generates pseudo-random float [0, 1); Use crypto.getRandomValues() for security!
+// Math.random()
+// Generates pseudo-random float between 0 (inclusive) and 1 (exclusive).
+
+// Example 1: Raw random float
+console.log(Math.random());
+// Output: Random float (e.g., 0.428109...)
