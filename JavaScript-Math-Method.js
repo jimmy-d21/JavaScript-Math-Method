@@ -185,3 +185,10 @@ console.log(cheapestProduct);
 // Example 1: Raw random float
 console.log(Math.random());
 // Output: Random float (e.g., 0.428109...)
+
+// Example 2: Integer within range [min, max] inclusive
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomInt(1, 6)); // Dice roll
+// Output: Random integer between 1 and 6
