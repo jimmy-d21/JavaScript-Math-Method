@@ -61,3 +61,11 @@ const itemsPerPage = 10;
 const totalPages = Math.ceil(totalItems / itemsPerPage);
 console.log(totalPages);
 // Output: 3
+
+// Math.round(x): Standard arithmetic rounding to nearest integer (.5 rounds toward +Infinity)
+// Math.round()
+// Rounds a number to the nearest integer (.5 rounds UP).
+
+// Example 1: Rounding down vs up
+console.log(Math.round(4.4));
+// Output: 4
