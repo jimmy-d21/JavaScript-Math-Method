@@ -210,3 +210,11 @@ console.log(Math.pow(2, 3));
 // Example 2: Fractional exponent (Square root equivalent)
 console.log(Math.pow(16, 0.5));
 // Output: 4
+
+// Example 3: Compound interest formula
+const principal = 1000;
+const rate = 0.05;
+const years = 2;
+const total = principal * Math.pow(1 + rate, years);
+console.log(total);
+// Output: 1102.5
