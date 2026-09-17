@@ -13,3 +13,7 @@ const pos2 = 42;
 const distance = Math.abs(pos1 - pos2);
 console.log(distance);
 // Output: 27
+
+// Example 3: Handled edge cases (coercion)
+console.log(Math.abs("-5"));
+// Output: 5
