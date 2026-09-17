@@ -92,3 +92,7 @@ console.log(Math.trunc(4.9));
 // Example 2: Truncating negative floats
 console.log(Math.trunc(-4.9));
 // Output: -4
+
+// Example 3: Converting string numbers safely
+console.log(Math.trunc("12.345"));
+// Output: 12
