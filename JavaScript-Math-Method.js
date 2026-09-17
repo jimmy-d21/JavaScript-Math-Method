@@ -105,3 +105,8 @@ console.log(Math.trunc("12.345"));
 // Example 1: Direct argument comparison
 console.log(Math.max(10, 20, 5, 30));
 // Output: 30
+
+// Example 2: Spreading an Array
+const scores = [88, 92, 79, 95];
+console.log(Math.max(...scores));
+// Output: 95
