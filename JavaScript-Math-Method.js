@@ -134,3 +134,8 @@ const topUser = users.reduce((max, user) =>
 );
 console.log(topUser);
 // Output: { name: "Bob", score: 95 }
+
+// Option 3: Math.max + Array.from()
+const maxScoreAlt = Math.max(...Array.from(users, (u) => u.score));
+console.log(maxScoreAlt);
+// Output: 95
