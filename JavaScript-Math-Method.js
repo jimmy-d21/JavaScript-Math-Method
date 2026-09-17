@@ -49,3 +49,8 @@ console.log(fullPages);
 const result4 = Math.ceil(4.1);
 console.log(result4);
 // Output: 5
+
+// Example 2: Negative numbers (rounds up toward zero)
+const result5 = Math.ceil(-4.9);
+console.log(result5);
+// Output: -4
