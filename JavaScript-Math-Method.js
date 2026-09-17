@@ -127,3 +127,10 @@ const users = [
 const maxScore = Math.max(...users.map((u) => u.score));
 console.log(maxScore);
 // Output: 95
+
+// Option 2: Array.prototype.reduce() (Best when you need the full object)
+const topUser = users.reduce((max, user) =>
+  user.score > max.score ? user : max,
+);
+console.log(topUser);
+// Output: { name: "Bob", score: 95 }
