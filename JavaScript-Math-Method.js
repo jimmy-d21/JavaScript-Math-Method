@@ -152,3 +152,10 @@ console.log(Math.min(10, 20, 5, 30));
 const prices = [19.99, 5.49, 12.0];
 console.log(Math.min(...prices));
 // Output: 5.49
+
+// Example 3: Capping an upper bound (Max health capacity)
+const currentHealth = 110;
+const maxHealth = 100;
+const cappedHealth = Math.min(currentHealth, maxHealth);
+console.log(cappedHealth);
+// Output: 100
