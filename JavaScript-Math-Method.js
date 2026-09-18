@@ -299,3 +299,7 @@ console.log(Math.sign("abc"));
 // Example 1: Positive cube root
 console.log(Math.cbrt(27));
 // Output: 3
+
+// Example 2: Negative cube root (Unlike sqrt, this works!)
+console.log(Math.cbrt(-64));
+// Output: -4
