@@ -253,3 +253,14 @@ const dx = 10 - 4;
 const dy = 12 - 4;
 console.log(Math.hypot(dx, dy));
 // Output: 10
+
+// Math Clamping Pattern
+// Constrains a numeric value inside a defined minimum and maximum boundary.
+
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
+
+// Example 1: Value within bounds
+console.log(clamp(50, 0, 100));
+// Output: 50
