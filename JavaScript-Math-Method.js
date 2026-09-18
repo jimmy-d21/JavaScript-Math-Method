@@ -234,3 +234,12 @@ console.log(Math.sqrt(2));
 // Example 3: Negative number edge case
 console.log(Math.sqrt(-9));
 // Output: NaN
+
+// 4. Missing Modern & Essential Math Methods (Intermediate–Advanced)
+// Math.hypot() (Missing from image)
+// Math.hypot(...args): Returns sqrt(sum of squared arguments); perfect for 2D/3D Euclidean distance
+// Calculates hypotenuse sqrt(a^2 + b^2 + ...) without intermediate overflow.
+
+// Example 1: Standard 2D Pythagorean calculation
+console.log(Math.hypot(3, 4));
+// Output: 5
