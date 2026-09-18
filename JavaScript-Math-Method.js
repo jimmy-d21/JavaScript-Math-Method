@@ -264,3 +264,7 @@ function clamp(value, min, max) {
 // Example 1: Value within bounds
 console.log(clamp(50, 0, 100));
 // Output: 50
+
+// Example 2: Value exceeding maximum boundary
+console.log(clamp(120, 0, 100));
+// Output: 100
