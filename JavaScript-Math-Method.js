@@ -283,3 +283,7 @@ console.log(Math.sign(42));
 // Output: 1
 console.log(Math.sign(-15));
 // Output: -1
+
+// Example 2: Zero values
+console.log(Math.sign(0));
+// Output: 0
