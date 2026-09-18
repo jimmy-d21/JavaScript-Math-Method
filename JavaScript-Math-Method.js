@@ -230,3 +230,7 @@ console.log(Math.sqrt(25));
 // Example 2: Non-integer square root
 console.log(Math.sqrt(2));
 // Output: 1.4142135623730951
+
+// Example 3: Negative number edge case
+console.log(Math.sqrt(-9));
+// Output: NaN
