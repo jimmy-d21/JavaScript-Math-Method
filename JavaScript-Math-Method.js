@@ -247,3 +247,9 @@ console.log(Math.hypot(3, 4));
 // Example 2: 3D vector distance
 console.log(Math.hypot(2, 3, 6));
 // Output: 7
+
+// Example 3: Distance between two 2D points (x1, y1) and (x2, y2)
+const dx = 10 - 4;
+const dy = 12 - 4;
+console.log(Math.hypot(dx, dy));
+// Output: 10
