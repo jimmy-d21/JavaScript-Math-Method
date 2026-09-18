@@ -226,3 +226,7 @@ console.log(total);
 // Example 1: Perfect square root
 console.log(Math.sqrt(25));
 // Output: 5
+
+// Example 2: Non-integer square root
+console.log(Math.sqrt(2));
+// Output: 1.4142135623730951
