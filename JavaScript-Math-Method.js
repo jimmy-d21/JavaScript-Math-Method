@@ -243,3 +243,7 @@ console.log(Math.sqrt(-9));
 // Example 1: Standard 2D Pythagorean calculation
 console.log(Math.hypot(3, 4));
 // Output: 5
+
+// Example 2: 3D vector distance
+console.log(Math.hypot(2, 3, 6));
+// Output: 7
