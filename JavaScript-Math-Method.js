@@ -256,6 +256,7 @@ console.log(Math.hypot(dx, dy));
 
 // Math Clamping Pattern
 // Constrains a numeric value inside a defined minimum and maximum boundary.
+// Clamp Pattern: Math.min(Math.max(val, min), max) keeps values safely inside bounds
 
 function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
@@ -268,3 +269,7 @@ console.log(clamp(50, 0, 100));
 // Example 2: Value exceeding maximum boundary
 console.log(clamp(120, 0, 100));
 // Output: 100
+
+// Example 3: Value below minimum boundary
+console.log(clamp(-15, 0, 100));
+// Output: 0
