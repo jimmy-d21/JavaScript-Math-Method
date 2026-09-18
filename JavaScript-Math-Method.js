@@ -273,3 +273,13 @@ console.log(clamp(120, 0, 100));
 // Example 3: Value below minimum boundary
 console.log(clamp(-15, 0, 100));
 // Output: 0
+
+// Math.sign() (Missing from image)
+// Math.sign(x): Returns 1, -1, 0, -0, or NaN representing the sign of x
+// Returns sign of a number indicating whether it is positive, negative, or zero.
+
+// Example 1: Positive and negative values
+console.log(Math.sign(42));
+// Output: 1
+console.log(Math.sign(-15));
+// Output: -1
