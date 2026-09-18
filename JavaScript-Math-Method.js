@@ -303,3 +303,7 @@ console.log(Math.cbrt(27));
 // Example 2: Negative cube root (Unlike sqrt, this works!)
 console.log(Math.cbrt(-64));
 // Output: -4
+
+// Example 3: Non-integer cube root
+console.log(Math.cbrt(2));
+// Output: 1.2599210498948732
