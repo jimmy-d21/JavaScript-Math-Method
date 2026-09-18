@@ -287,3 +287,7 @@ console.log(Math.sign(-15));
 // Example 2: Zero values
 console.log(Math.sign(0));
 // Output: 0
+
+// Example 3: Non-numeric strings
+console.log(Math.sign("abc"));
+// Output: NaN
