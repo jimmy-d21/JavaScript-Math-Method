@@ -218,3 +218,11 @@ const years = 2;
 const total = principal * Math.pow(1 + rate, years);
 console.log(total);
 // Output: 1102.5
+
+// Math.sqrt()
+// Math.sqrt(x): Returns square root of x; returns NaN for negative inputs
+// Returns the square root of a number.
+
+// Example 1: Perfect square root
+console.log(Math.sqrt(25));
+// Output: 5
